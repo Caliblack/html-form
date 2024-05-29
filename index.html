@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>htmlform</title>
+</head>
+<body>
+    <h3>Reservation Form</h3>
+   <div>
+    <form action="signup">
+        <fieldset><legend>General Information</legend>
+        <div>
+         <label for="arrival date">Arrival Date</label>  
+         <input type="number"> 
+        </div>
+         <br> <div>
+         <label for="no of night">No Of Nights</label>
+         <input type="number">
+        </div>
+         <br> <div>
+            <label for="adults">Adult</label>
+<select name="adult" id="">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+
+</select>
+        </div>
+        <br> <div>
+         <label for="children">Children</label> 
+         <select name="chidren" id="">
+          <option value="1">1</option> 
+          <option value="2">2</option>
+          <option value="3">3</option> 
+          <option value="4">4</option>
+
+         </select>  
+        </div>
+
+
+    </fieldset>
+    <fieldset><legend>preferences</legend>
+    <div>
+        <p>Room Type:</p>
+        <input type="radio" name="Standard" Checked>
+        <label for="standard">Standard</label>
+        <input type="radio" name="Business">
+        <label for="business">Business</label>
+        <input type="radio" name="suite">
+    </div>
+    <br> <div>
+     <p>Bed Types</p>
+     <input type="radio"name=King Checked>
+     <label for="king"><King/label>
+     <input type="radio"name=double double>
+     <label for="double double">Double Double</label>
+    </div>
+    <br> <div>
+<p>smoking:</p>
+<input type="radio" name="not allowed"Checked>
+<label for="not allowed">Not Allowed</label>
+<input type="radio" name="allow">
+<label for="allow">Allow</label>
+    </div>
+ <br> <div>
+<p>food:</p>
+<input type="checkbox" name="rice">
+<label for="rice">Rice</label>
+<input type="checkedbox" name="noodles">
+<label for="noodles"><Noodles/label>
+<input type="checkbox" name="beans">
+<label for="beans">Beans</label>
+<input type="checkbox" name="yam sauce">
+<label for="yam sauce">Yam Sauce</label>
+<input type="checkbox" name="soup">
+<label for="soup"><Soup/label>
+ </div>   
+</fieldset>
+<fieldset><legend>Contact Information</legend>
+ <div>
+ <label for="name">Name</label>
+ <input type="name" name="name">
+</div>
+<br> <div>
+    <label for="email">Email</label>
+    <input type="email" name="email">
+</div>
+<br> <div>
+    <label for="phone number">Phone Number</label>
+    <input type="phone number" name="phone number">
+</div>
+<br> <div>
+    <label for="home address">Home Address</label>
+    <input type="home address" name="home address">
+</div>
+<br> <div>
+    <label for="description">Description</label>
+    <textarea name="description" id="" cols="40" rows="20"></textarea>
+</div>
+    </fieldset>
+
+    <button>submit Reservation</button>
+    <button>Clear</button>
+</form>
+</div>
+
+</body>
+</html>
